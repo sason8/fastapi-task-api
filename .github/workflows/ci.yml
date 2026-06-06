@@ -32,4 +32,4 @@ jobs:
 
     - name: Run Tests with Pytest
       run: |
-        pytest -v
+        PYTHONPATH=. pytest -v
